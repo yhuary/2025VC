@@ -1,0 +1,26 @@
+@import url("07________/stylesheet.css");
+@import url("NotoSansJP_VariableFont_wght/stylesheet.css");
+@import url("NotoSansJP_Thin/stylesheet.css");
+
+
+body h1 {
+    color: #FF9CC9;
+    background-color: #FFE0F4;
+    font-family: "07にくまるフォント";
+}
+body p {
+    font-family: "BIZ UDPゴシック";
+}
+body p img {
+    width: 250px;
+    height: 250px;
+}
+body {
+    background-color: #FCF2F2;
+}
+.key {
+    font-size: x-large;
+    font-family: "07にくまるフォント";
+    font-variant: normal;
+    color: #FF5659;
+}
