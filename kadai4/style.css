@@ -1,0 +1,49 @@
+@charset "utf-8";
+ul.ddmenu {
+    margin: 0px;
+    padding: 0px 0px 0px 15px;
+    background-color: #93D0D8;
+	}
+
+
+ul.ddmenu li {
+    width: 125px;
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+ul.ddmenu a {
+    background-color: #93D0D8;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+ul.ddmenu ul {
+ display: none; 
+ margin: 0px; 
+ padding: 0px; 
+ position: absolute; 
+
+}
+	
+ul.ddmenu a:hover {
+    background-color: #DDF0FF; /* メニュー項目にマウスが載ったときの背景色(淡いピンク) */
+    color: #00148B; /* メニュー項目にマウスが載ったときの文字色(濃い赤色) */
+}
+
+ul.ddmenu li:hover ul {
+ display: block; /* ★5:マウスポインタが載っている項目の内部にあるリストを表示する */
+}
+body {
+    font-family: "游明朝";
+    background-color: #E3E3E3;
+}
+.article p img {
+    width: 30%;
+}
+.picture img {
+    width: 100%;
+}
