@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>第9週課題</title>
+<script>
+function hiku(){
+    var ans1;
+	var v1 = document.getElementById("a").value;
+	var v2 = document.getElementById("b").value;
+	ans1 = Number(v1)-Number(v2);
+	document.getElementById("kotae1").value = ans1;
+}
+function kakeru(){
+    var ans2;
+    var v3 =document.getElementById("c").value;
+    var v4 =document.getElementById("d").value;
+    ans2 = Number(v3)*Number(v4);
+	document.getElementById("kotae2").value = ans2;
+}
+</script>
+</head>
+
+<body>
+<h1>引き算・掛け算計算ツール</h1>
+<p>2332751 林優里</p>
+<form class="hikizan">
+	   A= <input type="text" id="a" /> <br>
+	   B= <input type="text" id="b" /> <br>
+	   <input type="button" onclick="hiku()" value="引き算"/> <br>
+	   答え= <input type="text" id="kotae1" />
+</form><br>
+<form class="kakezan">
+	   C= <input type="text" id="c" /> <br>
+	   D= <input type="text" id="d" /> <br>
+	   <input type="button" onclick="kakeru()" value="掛け算"/> <br>
+	   答え= <input type="text" id="kotae2" />
+</form>
+</body>
+</html>
