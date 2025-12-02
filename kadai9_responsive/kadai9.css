@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+@media screen and (min-width: 481px) { 
+	h1{
+		background-color:#FF4603
+	}
+	section{
+    	background-color: #FFBF67;		
+	}
+	
+	.container {
+  		display: flex;
+  		flex-direction: row;
+	}
+}
+@media screen and (max-width: 480px) {
+	img {
+		width: 100% ;
+	}
+	h1 {
+		background-color:#B530F2
+	}
+	section{
+    	background-color: #E4AAFF;		
+	}
+	.container {
+  		display: flex;
+  		flex-direction: column;
+	}
+}

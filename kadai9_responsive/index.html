@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+
+<title>9週目課題</title>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css">
+
+<script>
+	$(function(){
+	$('#datepicker').datepicker();
+	
+	
+	$( "#dialog" ).dialog({
+      autoOpen: false,
+      show: "blind",
+      hide: "explode"
+    });
+		
+    $( "#opener" ).click(function() {
+      $( "#dialog" ).dialog( "open" );
+      return false;
+    });
+});
+</script>
+
+<link href="kadai9.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+<h1>第9週課題</h1>
+	<p>2332751 林優里</p>
+</header>
+<article>
+<section>
+<div id="dialog" title="基本的なダイアログ">
+  <p>
+	ダイアログです。
+	'x'アイコンで閉じることが出来ます。
+  </p>
+</div>
+<button id="opener">ダイアログを開く</button>
+</section>
+<section>
+<p>カレンダーです。</p>
+<input type="text" id="datepicker">
+</section>
+<br>
+<section>	
+<p>イラストです。スマートフォンで開くと縦1列に並びます。</p>	
+  <img src="sleep.png" alt=""/> 
+  <img src="computer_tokui_boy.png" alt=""/> 
+  <img src="plant_ooonibasu_girl.png" alt=""/> 
+  <img src="toy_norimono_car_boy.png" alt=""/> 
+  <img src="shibasuberi_danbo-ru_girl.png" alt=""/> 
+</section>
+</article>
+</body>
+</html>
